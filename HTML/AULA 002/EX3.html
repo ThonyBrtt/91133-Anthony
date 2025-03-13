@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleEX3.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <section>
+        <h1>Cadastro de preferencia</h1>
+        <form>
+            <!-- Campo nome -->
+             <label for="Nome">Nome</label>
+             <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required><br><br>
+            <!-- Campo Email-->
+             <label for="email">E-mail</label>
+             <input type="email" name="email" id="email" placeholder="Digite seu E-mail" required><br><br>
+             <!-- Campo Seleção -->
+             <label for="pais">Selecione seu pais</label>
+             <select name="pais" id="pais">
+                <option value="argentina">Argentina</option>
+                <option value="colombia">Colômbia</option>
+                <option value="mexico">México</option>
+                <option value="chile">Chile</option>
+                <option value="peru">Peru</option>
+                <option value="ecuador">Equador</option>
+                <option value="venezuela">Venezuela</option>
+                <option value="paraguai">Paraguai</option>
+                <option value="bolivia">Bolívia</option>
+                <option value="uruguai">Uruguai</option>
+                <option value="guatemala">Guatemala</option>
+                <option value="costa_rica">Costa Rica</option>
+                <option value="panama">Panamá</option>
+                <option value="rep_dominicana">República Dominicana</option>
+                <option value="honduras">Honduras</option>
+                <option value="el_salvador">El Salvador</option>
+                <option value="nicaragua">Nicarágua</option>
+                <option value="haiti">Haiti</option>
+                <option value="belize">Belize</option>
+                <option value="outro">Outros</option>
+             </select><br><br>
+             <!-- Campo Genero-->
+                <input type="radio" name="genero" id="Masculino" value="masculino"><br>
+                <label for="Masculino">Masculino</label><br><br>           
+                <input type="radio" name="genero" id="Feminino" value="feminino">
+                <label for="Feminino">Feminino</label><br><br>           
+                <input type="radio" name="genero" id="NaoBinario" value="nao_binario">
+                <label for="NaoBinario">Não Binário</label><br><br>         
+                <input type="radio" name="genero" id="Transgenero" value="transgenero">
+                <label for="Transgenero">Transgênero</label><br><br>                 
+                <input type="radio" name="genero" id="Outro" value="outro">
+                <label for="Outro">Outro</label><br><br>   
+                <button type="submit">Enviar</button>          
+        </form>
+
+    </section>
+    
+</body>
+</html>

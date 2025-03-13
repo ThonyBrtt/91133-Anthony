@@ -1,0 +1,37 @@
+h1{
+    text-align: center;
+}
+
+label{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+body{
+    text-align: center;
+}
+
+input{
+    width: 220px;
+    border-radius: 10px;
+    border-color: purple;
+    text-align: center;
+}
+
+textarea{
+    border-radius: 10px;
+    border-color: purple;
+}
+
+button{
+    height: 20px;
+    border-radius: 5px;
+    color: purple;
+    background-color: yellow;
+    font-weight: bold;
+}
+
+button:hover{
+    color: green;
+    background-color: greenyellow;
+}
