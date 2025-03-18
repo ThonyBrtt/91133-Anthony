@@ -1,0 +1,83 @@
+/* Zerando as config da pagina*/
+
+*{
+    margin: 0;
+    /* zerando margem */
+    padding: 0;
+    /* zereando o espaço*/
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgba(228, 217, 215, 0.699);
+    margin: 12px;
+    padding: 30px;
+}
+
+body{
+    text-align: center;
+}
+
+ul li{
+    /* Tirar as bolinhas */
+    list-style: none;
+    display: inline;
+    padding: 12px;
+}
+
+a{
+    /*Tiar o sublinhado */
+    text-decoration: none;
+    color: rgba(20, 20, 184, 0.699);
+    font-weight: bold;
+    font-size: 25pt;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 5px;
+}
+
+a:hover{
+    color: black;
+    text-decoration: overline;
+    padding: 5px;
+    transition: 200ms;
+}
+
+section{
+    background-color: rgba(228, 217, 215, 0.699);
+    margin: 15px;
+    border-bottom-right-radius: 5px;
+    
+}
+
+h2{
+    background-color: aqua;
+    margin: 5px;
+    padding: 4px;
+    margin-inline: 5px;
+    border-radius: 2px;
+}
+
+p{
+    background-color: rgb(255, 254, 254);
+}
+
+.about{
+    background-color: rgb(194, 159, 159);
+}
+
+.products{
+    background-color: rgb(194, 159, 159);
+}
+
+.contacts{
+    background-color: rgb(194, 159, 159);
+}
+
+#Font-type{
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+html{
+    scroll-behavior: smooth;
+}
