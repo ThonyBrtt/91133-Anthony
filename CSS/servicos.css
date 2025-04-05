@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f8ff;
+}
+
+.header {
+    height: 24vh; /* reduzido */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffcc00;
+    text-align: center;
+    border-bottom: 4px solid #ff9900;
+}
+
+.header img {
+    width: 19vh;
+    margin-top: 10px; /* reduzido */
+}
+
+.header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-top: 5px; /* reduzido */
+    width: 100vw;
+}
+
+ul li {
+    padding: 0.5rem; /* reduzido */
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    color: #ff9900;
+    transition: 300ms;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding-top: 1rem; /* reduzido */
+    margin-bottom: 2rem; /* reduzido */
+}
+
+.services h1 {
+    text-align: center;
+    color: #ff9900;
+    font-size: 2.2rem; /* levemente menor */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem; /* adicionado para separar do conteúdo */
+}
+
+.services ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    list-style: none;
+    text-align: center;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.services ul li {
+    padding: 0.4rem; /* levemente reduzido */
+    font-size: 1.1rem; /* levemente menor */
+}
+
+footer {
+    border-top: 5px solid orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffcc00;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+footer p {
+    color: black;
+    font-size: 0.9rem;
+}
