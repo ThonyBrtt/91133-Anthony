@@ -1,0 +1,174 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f8ff;
+}
+
+.header{
+    height: 28vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffcc00;
+    text-align: center;
+    border-bottom: 4px solid #ff9900;
+}
+
+.header img{
+    width: 19vh;
+    margin-top: 30px;
+}
+
+.header ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-top: 10px;
+    width: 100vw;
+}
+
+ul li{
+    padding: 1rem;
+    /* margin-top: 10rem; */
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+ul li a:hover{
+    color: #ff9900;
+    transition: 300ms;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main h2{
+    color: #ff9900;
+    margin-top: 3rem;
+    font-size: 2.3rem;
+}
+
+.form{
+    border-radius: 10px;
+    width: 30%;
+    height: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.campo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0.5rem;
+    width: 100%;
+}
+
+.campo input{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea{
+    margin-top: 0.5rem;
+    border-radius: 0.5rem;
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 0.7rem;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button{
+    background-color: #ff9900;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: rgb(255, 183, 49);
+}
+
+.whatsapp-contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin-top: 1rem;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.whatsapp-contato h3{
+    font-size: 1.5rem;
+}
+
+.whatsapp-botao{
+    background-color: #25d366;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    display: inline-flex;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.whatsapp-botao:hover {
+    background-color: #1ebe5b;
+}
+
+.whatsapp-botao img{
+    width: 24px;
+    height: auto;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+footer{
+    border-top: 5px solid orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #ffcc00;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+footer p{
+    color: black;
+    font-size: 0.9rem;
+}
