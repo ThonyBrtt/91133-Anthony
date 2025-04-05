@@ -1,13 +1,12 @@
-
-body{
+body {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f2f8ff;
 }
 
-.header{
-    height: 28vh;
+.header {
+    height: 24vh; /* reduzido */
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -18,41 +17,40 @@ body{
     border-bottom: 4px solid #ff9900;
 }
 
-.header img{
+.header img {
     width: 19vh;
-    margin-top: 30px;
+    margin-top: 10px; /* reduzido */
 }
 
-.header ul{
+.header ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     list-style: none;
-    margin-top: 10px;
+    margin-top: 5px; /* reduzido */
     width: 100vw;
 }
 
-ul li{
-    padding: 1rem;
-    /* margin-top: 10rem; */
+ul li {
+    padding: 0.5rem; /* reduzido */
 }
 
-ul li a{
+ul li a {
     text-decoration: none;
     color: black;
     font-size: 1.1rem;
     font-weight: bold;
 }
 
-ul li a:hover{
+ul li a:hover {
     color: #ff9900;
     transition: 300ms;
 }
 
 .banner {
     position: relative;
-    height: 43vh;
+    height: 35vh; /* reduzido */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -69,71 +67,68 @@ ul li a:hover{
 .banner h1, .banner p {
     position: absolute;
     z-index: 1;
-    color: white; 
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); 
-    width: 80%; 
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    width: 80%;
 }
 
 .banner h1 {
-    font-size: 3rem;
+    font-size: 2.5rem; /* levemente menor */
     font-weight: bold;
     top: 30%;
 }
 
 .banner p {
-    position: absolute;
-    bottom: 5px;
+    bottom: 8px;
     left: 50%;
     transform: translateX(-50%);
     background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    padding: 10px 20px;
+    padding: 8px 16px;
     border-radius: 5px;
-    width: 15%;
-    height: 7%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: auto;
+    font-size: 1rem;
 }
 
-.about-me{
+.about-me {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 3rem;
-    height: 28vh;
+    margin-top: 2rem; /* reduzido */
+    height: 22vh; /* reduzido */
     background-color: #fff6e6;
+    padding: 1rem;
+    text-align: center;
 }
 
-.about-me h2{
+.about-me h2 {
     color: #ff9900;
-    font-size: 2.5rem;
+    font-size: 2rem; /* menor */
+    margin-bottom: 0.5rem;
 }
 
-.about-me p{
+.about-me p {
     color: #666666;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    max-width: 80%;
 }
 
-.botao{
+.botao {
     background-color: #ff9900;
     color: white;
-    padding: 10px 20px;
+    padding: 8px 16px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 1rem;
     border-radius: 5px;
     transition: background-color 0.3s;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
 }
 
-footer{
+footer {
     border-top: 5px solid orange;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 100%;
     background-color: #ffcc00;
     color: white;
     width: 100%;
@@ -141,7 +136,7 @@ footer{
     padding: 0.5rem;
 }
 
-footer p{
+footer p {
     color: black;
     font-size: 0.9rem;
 }

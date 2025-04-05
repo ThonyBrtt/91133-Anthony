@@ -1,12 +1,12 @@
-body{
+body {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f2f8ff;
 }
 
-.header{
-    height: 28vh;
+.header {
+    height: 24vh; 
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -17,50 +17,52 @@ body{
     border-bottom: 4px solid #ff9900;
 }
 
-.header img{
+.header img {
     width: 19vh;
-    margin-top: 30px;
+    margin-top: 10px; /* reduzido */
 }
 
-.header ul{
+.header ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     list-style: none;
-    margin-top: 10px;
+    margin-top: 5px; /* reduzido */
     width: 100vw;
 }
 
-ul li{
-    padding: 1rem;
+ul li {
+    padding: 0.5rem; /* reduzido */
 }
 
-ul li a{
+ul li a {
     text-decoration: none;
     color: black;
     font-size: 1.1rem;
     font-weight: bold;
 }
 
-ul li a:hover{
+ul li a:hover {
     color: #ff9900;
     transition: 300ms;
 }
 
-main{
+main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 2.8rem;
+    padding: 1.5rem; /* reduzido */
 }
 
-main h1{
+main h1 {
     color: #ff9900;
-    font-size: 2.2rem;
+    font-size: 2rem; /* levemente menor */
+    margin-bottom: 1rem; /* adicionado para separar do conteúdo abaixo */
 }
 
-main img{
-    width: 55vw;
+main img {
+    width: 50vw; /* levemente reduzido para um visual mais proporcional */
+    max-width: 600px; /* limite para telas grandes */
 }
