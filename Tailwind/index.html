@@ -3,41 +3,87 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="/src/styles.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Sobre Nós</a></li>
-                <li><a href="">Contato</a></li>
+<body class="bg-gray-50 font-sans">
+    <header class="bg-blue-800 text-white shadow-md">
+        <nav class="container mx-auto px-4 py-4">
+            <ul class="flex space-x-6">
+                <li><a href="#" class="hover:text-blue-200 transition duration-300">Home</a></li>
+                <li><a href="#" class="hover:text-blue-200 transition duration-300">Sobre Nós</a></li>
+                <li><a href="#" class="hover:text-blue-200 transition duration-300">Contato</a></li>
             </ul>
         </nav>
-  </header>
-    <main>
-        <section>
-            <h2>Nossa História</h2>
-            <p></p>
+    </header>
+    
+    <main class="container mx-auto px-4 py-8">
+        <section class="mb-12">
+            <h2 class="text-3xl font-bold text-gray-800 mb-4">Nossa História</h2>
+            <p class="text-gray-600 leading-relaxed">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor.
+            </p>
         </section>
-            <section>
-                <h2>Nossa Equipe</h2>
-                <img src="" alt="">
-            </section>
-        <section>
-            <h2>Parceiros</h2>
-            <table>
-                <thead></thead>
-                <td>
-                    <tr></tr>
-                </td>
-            </table>
+        
+        <section class="mb-12">
+            <h2 class="text-3xl font-bold text-gray-800 mb-6">Nossa Equipe</h2>
+            <div class="flex flex-col md:flex-row gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Membro da equipe" class="w-32 h-32 rounded-full mx-auto mb-4">
+                    <h3 class="text-xl font-semibold text-center">Ana Silva</h3>
+                    <p class="text-blue-600 text-center">CEO</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Membro da equipe" class="w-32 h-32 rounded-full mx-auto mb-4">
+                    <h3 class="text-xl font-semibold text-center">Carlos Oliveira</h3>
+                    <p class="text-blue-600 text-center">CTO</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Membro da equipe" class="w-32 h-32 rounded-full mx-auto mb-4">
+                    <h3 class="text-xl font-semibold text-center">Mariana Santos</h3>
+                    <p class="text-blue-600 text-center">Diretora de Marketing</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="mb-12">
+            <h2 class="text-3xl font-bold text-gray-800 mb-6">Parceiros</h2>
+            <div class="overflow-x-auto">
+                <table class="min-w-full bg-white rounded-lg overflow-hidden">
+                    <thead class="bg-gray-100">
+                        <tr>
+                            <th class="py-3 px-4 text-left">Empresa</th>
+                            <th class="py-3 px-4 text-left">Setor</th>
+                            <th class="py-3 px-4 text-left">Parceria Desde</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-gray-200">
+                        <tr class="hover:bg-gray-50">
+                            <td class="py-3 px-4">TechSolutions</td>
+                            <td class="py-3 px-4">Tecnologia</td>
+                            <td class="py-3 px-4">2018</td>
+                        </tr>
+                        <tr class="hover:bg-gray-50">
+                            <td class="py-3 px-4">InovaMarketing</td>
+                            <td class="py-3 px-4">Marketing Digital</td>
+                            <td class="py-3 px-4">2020</td>
+                        </tr>
+                        <tr class="hover:bg-gray-50">
+                            <td class="py-3 px-4">GlobalLog</td>
+                            <td class="py-3 px-4">Logística</td>
+                            <td class="py-3 px-4">2019</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </section>
     </main>
-    <footer>
-        <div>
-
-        </div>
-    </footer>
-</body>
-</html>
+    
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between">
+                <div class="mb-6 md:mb-0">
+                    <h3 class="text-xl font-bold mb-4">Nossa Empresa</h3>
+                    <p class="text-gray-400">Transformando ideias em soluções desde 2010.</p>
+                </div>
+                <div class="mb-6 md:mb-0">
+                    <h3 class="text-xl font-bold mb-4">Links
